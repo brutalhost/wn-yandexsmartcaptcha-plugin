@@ -1,0 +1,32 @@
+fields:
+    client_key:
+        label: 'Client Key'
+        type: text
+        span: full
+        placeholder: 'Enter your Client Key'
+
+    server_key:
+        label: 'Server Key'
+        type: text
+        span: full
+        placeholder: 'Enter your Server Key'
+
+    language:
+        label: 'Widget Language'
+        type: dropdown
+        span: full
+        options:
+            en: English
+            ru: Russian
+            be: Belarusian
+            kk: Kazakh
+            tt: Tatar
+            uk: Ukrainian
+            uz: Uzbek
+            tr: Turkish
+        default: 'en'
+
+    documentation_link:
+        type: partial
+        path: '~/plugins/brutalhost/yandexsmartcaptcha/partials/_documentation_link.htm'
+        span: full
